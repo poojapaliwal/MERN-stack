@@ -1,0 +1,20 @@
+{
+  "name": "book-keeping-app",
+  "version": "1.0.0",
+  "description": "Books record keeping web application",
+  "main": "server.js",
+  "scripts": {
+    "server": "nodemon Backend/server.js"
+  },
+  "author": "Pooja Paliwal",
+  "license": "MIT",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "express": "^4.17.1",
+    "express-async-handler": "^1.1.4",
+    "mongoose": "^5.12.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}

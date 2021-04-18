@@ -1,6 +1,8 @@
 /**  @format */
 
 const express = require('express');
+const dotenv = require('dotenv')
+dotenv.config();
 require('./config/dbConnect')();
 const User = require('./models/User')
 const mongoose = require('mongoose');
